@@ -52,11 +52,11 @@ app.get('/info', function(req, res) {
   if (CURRENTMODE == MODE.TEST) {
     patientdata = {
       "personal": {
-        "name": "Ralph DAlmeida",
-        "age": 38,
+        "name": "Moussa Housseini",
+        "age": 36,
         "gender": "male",
-        "street": "34 Main Street",
-        "city": "Toronto",
+        "street": "Camp sonel essos",
+        "city": "Yaounde",
         "zipcode": "M5H 1T1"
       },
       "medications": ["Metoprolol", "ACE inhibitors", "Vitamin D"],
